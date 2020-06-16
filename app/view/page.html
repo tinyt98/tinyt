@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link href="https://ww.aliwen.vip/wp-content/uploads/2019/07/fb3285fc302c1c9.png" rel="icon">
+  <title>超级神器，超强聚合下载神器复活啦-Aliwen小栈</title>
+
+	
+
+<link rel='stylesheet' id='external-css'  href='/public/static/css/external.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sweetalert2-css'  href='/public/static/css/sweetalert2.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='app-css'  href='/public/static/css/app.css' type='text/css' media='all' />
+<link rel='stylesheet' id='diy-css'  href='/public/static/css/diy.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='/public/static/css/jquery.fancybox.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/public/static/js/jquery-2.2.4.min.js'></script>
+<script type='text/javascript' src='/public/static/js/sweetalert2.min.js'></script>
+<script type="text/javascript" >
+(function($){
+    jQuery.fn.vscontext = function(options){
+        var defaults = {
+            menuBlock: null,
+            offsetX : 8,
+            offsetY : 8,
+            speed : 'slow'
+        };
+        var options = $.extend(defaults, options);
+        var menu_item = '.' + options.menuBlock;
+        return this.each(function(){
+            	$(this).bind("contextmenu",function(e){
+				return false;
+		});
+            	$(this).mousedown(function(e){
+                        var offsetX = e.pageX  + options.offsetX;
+                        var offsetY = e.pageY + options.offsetY;
+			if(e.button == "2"){
+                            $(menu_item).show(options.speed);
+                            $(menu_item).css('display','block');
+                            $(menu_item).css('top',offsetY);
+                            $(menu_item).css('left',offsetX);
+			}else {
+                            $(menu_item).hide(options.speed);
+                        }
+		});
+                $(menu_item).hover(function(){}, function(){$(menu_item).hide(options.speed);})
+                
+        });
+    };
+})(jQuery);
+</script>
+<style type="text/css" >
+           .vs-context-menu{
+    display:none;
+    position: absolute;
+}
+
+.vs-context-menu ul{
+       list-style: none;
+        padding: 0;
+        margin: 0;position:relative;
+        background:#eee;
+    border: 1px solid #DDDDDD;
+    width:auto;min-width: 220px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    font-size: 13px;
+}
+
+.vs-context-menu li{
+    margin: 0px;
+    padding: 3px;
+}
+.vs-context-menu ul a{
+        display: block;
+	padding: 1px 5px;
+	padding-left: 28px;
+        text-decoration: none;
+        color: #000;
+        background-repeat: no-repeat;padding: 10px;
+}
+
+.vs-context-menu ul li a:hover, .vs-context-menu ul li a:focus {
+opacity:.8;background:#fff;
+}
+
+.seprator{
+    border-bottom: 1px solid  #DDDDDD;
+}
+</style>
+<meta name="generator" content="Login Designer 1.1.7" />
+<meta name="keywords" content="下载器,秒数,软件,软件工具">
+<meta name="description" content="Hello，嗨，大家好，我是Aliwen。  这里是Aliwen小栈  今天推送的是万能下载神器的文章，感谢您宝贵的时间阅读。  1  昨天小栈硬是把每个终端的看剧软件都给大家安排上了，我想基本应该可以满足大家这段时间在家办公或是待工的追剧需求了吧！当然，这不只是对于当前的需求啦...">
+<link rel='stylesheet' id='wbs-style-dwqr-css'  href='/public/static/css/wbp_donate.css' type='text/css' media='all' />	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="/public/static/js/html5shiv.js"></script>
+      <script src="/public/static/js/respond.min.js"></script>
+    <![endif]-->
+          <script> $(document).ready(function() { NProgress.start(); $(window).load(function() { NProgress.done(); }); });</script>
+    </head>
+
+<body class="post-template-default single single-post postid-559 single-format-standard  max_width navbar-sticky navbar-slide no-search sidebar-right pagination-infinite_button">
+
+<div class="site">
+    
+<header class="site-header">
+      <div class="container">
+      <div class="navbar">
+      <div class="logo-wrapper">
+              <a href="https://ww.aliwen.vip/">
+          <img class="logo regular tap-logo" src="/public/static/picture/d72c2fe0ed4f457.png" data-dark="" alt="Aliwen小栈">
+        </a>
+            </div>
+      <div class="sep"></div>
+      
+      <nav class="main-menu hidden-xs hidden-sm hidden-md">
+        <ul id="menu-menu-1" class="nav-list u-plain-list"><li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-34"><a href="https://ww.aliwen.vip/">首页</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-85"><a href="https://ww.aliwen.vip/sygs">诗与故事</a>
+<ul class="sub-menu">
+	<li id="menu-item-86" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86"><a href="https://ww.aliwen.vip/sygs/wyfq">文艺奋青</a></li>
+	<li id="menu-item-87" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87"><a href="https://ww.aliwen.vip/sygs/tral">旅游攻略</a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-88"><a href="https://ww.aliwen.vip/sygs/life-2">生活腔调</a></li>
+</ul>
+</li>
+<li id="menu-item-89" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-89"><a href="https://ww.aliwen.vip/zpxs">作品欣赏</a>
+<ul class="sub-menu">
+	<li id="menu-item-90" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-90"><a href="https://ww.aliwen.vip/zpxs/ui">UI设计</a></li>
+	<li id="menu-item-94" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94"><a href="https://ww.aliwen.vip/zpxs/new">新媒体</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-91"><a href="https://ww.aliwen.vip/zpxs/bgwd">办公文档</a></li>
+	<li id="menu-item-95" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-95"><a href="https://ww.aliwen.vip/zpxs/dstb">电商淘宝</a></li>
+	<li id="menu-item-92" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-92"><a href="https://ww.aliwen.vip/zpxs/adver">广告设计</a></li>
+	<li id="menu-item-93" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93"><a href="https://ww.aliwen.vip/zpxs/chpt">插画配图</a></li>
+</ul>
+</li>
+<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-234"><a href="https://shop35774625.taobao.com/?spm=a1z10.1-c.0.0.6dcf52c12BvRFR">杂货铺</a></li>
+<li id="menu-item-146" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-146"><a href="https://ww.aliwen.vip/tool">软件工具</a>
+<ul class="sub-menu">
+	<li id="menu-item-147" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-147"><a href="https://ww.aliwen.vip/tool/work">办公文档</a></li>
+	<li id="menu-item-148" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-148"><a href="https://ww.aliwen.vip/tool/ide">开发IDE</a></li>
+	<li id="menu-item-149" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149"><a href="https://ww.aliwen.vip/tool/camera">摄影工具</a></li>
+	<li id="menu-item-150" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-150"><a href="https://ww.aliwen.vip/tool/show">翻墙通道</a></li>
+	<li id="menu-item-151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-151"><a href="https://ww.aliwen.vip/tool/des">设计神器</a></li>
+</ul>
+</li>
+<li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="http://img.aliwen.vip">壁纸墙</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-102"><a href="https://ww.aliwen.vip/tech-2">技术栈</a>
+<ul class="sub-menu">
+	<li id="menu-item-105" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105"><a href="https://ww.aliwen.vip/tech-2/design">我爱设计</a></li>
+	<li id="menu-item-103" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-103"><a href="https://ww.aliwen.vip/tech-2/qdkf">前端开发</a></li>
+	<li id="menu-item-104" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-104"><a href="https://ww.aliwen.vip/tech-2/htcx">后台程序</a></li>
+	<li id="menu-item-107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"><a href="https://ww.aliwen.vip/tech-2/databases">玩数据库</a></li>
+	<li id="menu-item-106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-106"><a href="https://ww.aliwen.vip/tech-2/server">操服务器</a></li>
+</ul>
+</li>
+<li id="menu-item-108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-108"><a href="http://ww.aliwen.vip">小程序</a></li>
+<li id="menu-item-109" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-109"><a href="https://ww.aliwen.vip/zmz">造梦者</a>
+<ul class="sub-menu">
+	<li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115"><a href="https://ww.aliwen.vip/zmz/time">时间轴</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-223"><a href="http://music.aliwen.vip/">音悦台</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113"><a href="https://ww.aliwen.vip/zmz/navb">我的导航</a></li>
+	<li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236"><a href="http://film.aliwen.vip/">会员电影</a></li>
+	<li id="menu-item-114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"><a href="https://ww.aliwen.vip/zmz/apple">我的果园</a></li>
+	<li id="menu-item-111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"><a href="https://ww.aliwen.vip/zmz/fuck">关注我们</a></li>
+</ul>
+</li>
+</ul>      </nav>
+      
+      <div class="main-search">
+        <form method="get" class="search-form inline" action="https://ww.aliwen.vip/">
+  <input type="search" class="search-field inline-field" placeholder="输入关键词，回车..." autocomplete="off" value="" name="s" required="required">
+  <button type="submit" class="search-submit"><i class="mdi mdi-magnify"></i></button>
+</form>        <div class="search-close navbar-button"><i class="mdi mdi-close"></i></div>
+      </div>
+
+      <div class="actions">
+                  <!-- user -->
+                        <div class="login-btn navbar-button"><i class="mdi mdi-account"></i> 登录</div>
+                          <!-- user end -->
+        <div class="search-open navbar-button"><i class="mdi mdi-magnify"></i></div>
+                <div class="tap-dark navbar-button"><i class="mdi mdi-brightness-4"></i></div>
+                <div class="burger"></div>
+      </div>
+    </div>
+      </div>
+  </header>
+
+<div class="header-gap"></div>    
+    <div class="site-content">
+    
+
+<div class="container">
+	<div class="breadcrumbs">
+	当前位置：<a href="https://ww.aliwen.vip">Aliwen小栈</a> <small>></small> <a href="https://ww.aliwen.vip/tool">软件工具</a> <small>></small> 超级神器，超强聚合下载神器复活啦	</div>
+	<div class="row">
+		<div class="content-column col-lg-9">
+			<div class="content-area">
+				<main class="site-main">
+					<article id="post-559" class="article-content">
+    <div class="container">
+  
+<div class="cao_entry_header">
+
+  <header class="entry-header">    
+    <h1 class="entry-title">超级神器，超强聚合下载神器复活啦</h1>  </header></div></div>  <div class="container">
+    <div class="entry-wrapper">
+            <div class="entry-content u-text-format u-clearfix">
+        <p>Hello，嗨，大家好，我是Aliwen。</p>
+<p>这里是Aliwen小栈</p>
+<p>今天推送的是<strong>万能下载神器</strong>的文章，感谢您宝贵的时间阅读。</p>
+<p>1</p>
+<p>昨天小栈硬是把每个终端的看剧软件都给大家安排上了，我想基本应该可以满足大家这段时间在家办公或是待工的追剧需求了吧！当然，这不只是对于当前的需求啦，以后需要追剧的时候，随时都可以安排上的呀，每个终端都推送了，应该没有漏掉那个吧。</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p1.pstatp.com/large/pgc-image/ccea9538c01e4e9bb1b2bc6d8acb4679" /><noscript><img src="/public/static/picture/e00548c004c64acdba140f5b88f82e67.gif" /></noscript></div>
+<p>但是呢，我在看留言消息的时候，还有在粉丝群里面有很多小伙伴在问Aliwen有没有下载之类的好的软件，或者VPN翻墙之类的软件。之前我用的是迅雷，还是不错的，不过今天给大家安排的是超牛逼的万能下载神器复活了。今天推送的支持安卓端。</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p3.pstatp.com/large/pgc-image/822f5ead2e6e4851bf3de69990bc61d2" /><noscript><img src="/public/static/picture/8c6f772befb64461b3b4cad3e26e010d.gif" /></noscript></div>
+<p><strong>当然，IOS端的小伙伴，也给你们准备了一款下载神器的哦</strong>！</p>
+<p>主要是，关注我的小伙伴苹果用户还是满多的，之前很多东西没考虑到苹果的用户！所以不能把你们给漏了的，你们也是我的一部分^_^。这样Aliwen小栈才更精彩嘛！以后推送的文章里面尽最大的可能给安排！。</p>
+<p><strong>写文章也不容易啊，都是需要时间的。所以也请大家多多支持小栈。在获取软件的同时，日前文章里面均会随机出现一些不影响文章内容的小卡片，这个部分很容易辨别的，dian击一下退出来就可以了啦。当然，每次的分享，希望都能给大家带来帮助。在此，Aliwen也谢谢大家啦！</strong></p>
+<p>2</p>
+<p><strong>域·下载器</strong></p>
+<p>好啦，废话就不多说了，直奔今天的主题吧。</p>
+<p><strong>域·下载器：</strong>是一款超全能的下载神器，支持下载：<strong>BT磁力、种子、百度云、抖音无水印、快手无水印、皮皮虾、YouTube、Twitter</strong>等等超过30多种视频、音乐平台。而且是<strong>免所有VIP的</strong>哦、全部功能、无限制使用。</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p1.pstatp.com/large/pgc-image/3322ca25fb2442568fc64ef64013d94c" /><noscript><img src="/public/static/picture/ecc19a4816204c3e88069016bae5e04c.gif" /></noscript></div>
+<p>并且支持解析的内容炒鸡炒鸡多，支持解析：<strong>蓝奏云(列表、单链)、网易云音乐、QQ音乐、酷狗音乐、酷我音乐、虾米音乐、千千音乐、咪咕、荔枝FM、蜻蜓FM、喜马拉雅</strong>等等平台的内容。</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p1.pstatp.com/large/pgc-image/5bc79b389a534ee8bcbeb6c880d91fad" /><noscript><img src="/public/static/picture/50d20f47140e4ab4ad3ac03431eb7fa1.gif" /></noscript></div>
+<p>3</p>
+<p><strong>在Aliwen小栈公众号后台获取到下载链接，直接安装就可以啦！不用多余的操作。</strong></p>
+<p>我们在打开软件的时候是如下图所示，使用技巧都有的！</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p1.pstatp.com/large/pgc-image/54b0677c824641b4ba741dd494043ba7" /><noscript><img src="/public/static/picture/4a0d2da292574c5395c975f9bffa5473.gif" /></noscript></div>
+<p>正常情况下，比如你在某平台，把你需要的想下载的网址复制进去就可以了啦。然后点击<strong>开始解析</strong>就可以啦。</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p1.pstatp.com/large/pgc-image/5afa0d17d0c3459e921471a57443ff48" /><noscript><img src="/public/static/picture/ff3f66a4df394f448e33a165ca8087c7.gif" /></noscript></div>
+<p>为了演示效果，我这里就随便找了一个抖音里面的链接复制进去，你可以看到<strong>这下载速度简直秒数下载</strong>呀，我当时截图的时候，截图两次才抓去到页面，不然就是一下子</p>
+<p>就过去了。</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p3.pstatp.com/large/pgc-image/6010b1288b1c4c98b1e031842f75e887" /><noscript><img src="/public/static/picture/c7b4e8a575ac473fb0a95d72ee02234a.gif" /></noscript></div>
+<p>看不清楚，我在给大家放大图片来看看。</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p3.pstatp.com/large/pgc-image/c6f167629e0e42b99a24b6a4666fe470" /><noscript><img src="/public/static/picture/b8fdab22b4fd44008b15179e9b724005.gif" /></noscript></div>
+<p>是不是很棒呀！</p>
+<p>4</p>
+<p>嗯，由于时间的关系，这里我就不再一个一个专区去试了！支持全网各种平台的付费或者<strong>VIP的音乐资源下载</strong>哦。还有一些那啥视频<strong>去水印</strong>的等等。小伙伴们在底部获取到安装自行尝试，还有<strong>强大的搜索功能</strong>，你想要啥，啥都有！</p>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p1.pstatp.com/large/pgc-image/bc876760920a4c888cac163c4baffbb7" /><noscript><img src="/public/static/picture/fbe5bd261fbd4effb0b59ee127521e96.gif" /></noscript></div>
+<div class="pgc-img"><img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="http://p1.pstatp.com/large/pgc-image/7dc6022f09784d88bb8b891cc869ab6c" /><noscript><img src="/public/static/picture/dafad600159c47c6939369e000a91a70.gif" /></noscript></div>
+<p>嗯，主要是下载的速度真心不错！很棒！</p>
+<p>5</p>
+<p>然后就是今天IOS端的用户了，还给准备了两个，那就是<strong>迅雷</strong>和一个叫<strong>黑科技下载器</strong>了。没错迅雷TA又复活了。黑科技下载器也是相当的不错，支持。</p>
+<p><strong>总结一下：</strong></p>
+<p>下载器，其实也有很多，但是有一些不是那么的好用，我在这里就不推荐给大家了，主要是今天推荐的域-下载器，真的支持的功能实在是太多太多了，可以说是满足了很大一部分人的需求了吧。</p>
+<p><strong>最后：</strong></p>
+<p>如果大家喜欢这次Aliwen小栈分享出来的实用软件的话，那么就可以动动您的小手指帮小栈<strong>点个在看呀</strong>或者是<strong>转发到你朋友圈呀</strong>，让不知道的小伙伴们都能尝试用不用付费的特权！不花一分的冤枉钱！</p>
+<p>欢迎大家投稿、交流、反馈</p>
+<p>喜欢请关注、点赞、收藏、评论、转发</p>
+<p><strong>超级牛逼的万能下载神器！</strong></p>
+<p>功能：解锁全部会员VIP限制</p>
+<p>特色：无杂质，秒数下载</p>
+<p>测试机：MI5</p>
+<p>难度系数：没难度，适合男女老少</p>
+<p>更多精彩Aliwne小栈官网：https://ww.aliwen.vip</p>
+<h1 class="pgc-h-arrow-right">关注公众号：【Aliwen小栈】</h1>
+<p><strong>公众号回复：A0223</strong></p>
+<p>即可获取到下载链接</p>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" overflow="hidden" style="position:absolute;width:0;height:0">
+			  <defs>
+			    <symbol id="wbsico-close" viewBox="0 0 18 18">
+			      <path fill-rule="evenodd" d="M17.61.39a1.24 1.24 0 0 0-1.8 0L9 7.2 2.19.39C1.67-.13.9-.13.39.39s-.52 1.28 0 1.8L7.2 9 .39 15.81a1.24 1.24 0 0 0 0 1.8c.25.26.51.39.9.39s.64-.13.9-.39L9 10.8l6.81 6.81c.26.26.65.39.9.39s.65-.13.9-.39c.52-.51.52-1.28 0-1.8L10.8 9l6.81-6.81c.52-.52.52-1.29 0-1.8z"></path>
+			    </symbol>
+			    <symbol id="wbsico-donate" viewBox="0 0 9 18">
+			      <path fill-rule="evenodd" d="M5.63 8.1V4.61c.67.23 1.12.9 1.12 1.58S7.2 7.3 7.88 7.3 9 6.86 9 6.2a3.8 3.8 0 0 0-3.38-3.83V1.12C5.63.45 5.17 0 4.5 0S3.37.45 3.37 1.12v1.24A3.8 3.8 0 0 0 0 6.2C0 8.55 1.8 9.45 3.38 9.9v3.49c-.68-.23-1.13-.9-1.13-1.58S1.8 10.7 1.12 10.7 0 11.14 0 11.8a3.8 3.8 0 0 0 3.38 3.83v1.24c0 .67.45 1.12 1.12 1.12s1.13-.45 1.13-1.12v-1.24A3.88 3.88 0 0 0 9 11.8c0-2.36-1.8-3.26-3.38-3.7zM2.25 6.19c0-.79.45-1.35 1.13-1.58v2.93c-.8-.34-1.13-.68-1.13-1.35zm3.38 7.2v-2.93c.78.34 1.12.68 1.12 1.35 0 .79-.45 1.35-1.13 1.58z"></path>
+			    </symbol>
+			    <symbol id="wbsico-like" viewBox="0 0 16 16">
+			     <path fill-rule="evenodd" d="M13.3 6H9V2c0-1.5-.8-2-2-2-.3 0-.6.2-.6.5L4 8v8h8.6c1.3 0 2.4-1 2.6-2.3l.8-4.6c.1-.8-.1-1.6-.6-2.1-.5-.7-1.3-1-2.1-1M0 8h2v8H0z"/>
+			    </symbol>
+			    <symbol id="wbsico-share" viewBox="0 0 14 16">
+			     <path fill-rule="evenodd" d="M11 6a3 3 0 1 0-3-2.4L5 5.6A3 3 0 0 0 3 5a3 3 0 0 0 0 6 3 3 0 0 0 1.9-.7l3.2 2-.1.7a3 3 0 1 0 3-3 3 3 0 0 0-1.9.7L6 8.7a3 3 0 0 0 0-1.3l3.2-2A3 3 0 0 0 11 6"/>
+			    </symbol>
+			  </defs>
+			</svg>
+			<div class="wbp-cbm">
+				<div class="ctrl-item">
+						<a class="wb-btn wb-btn-ctrl wb-btn-outlined" id="J_ppoDonateBtn" data-ppo-name="#J_ppoDonate"><svg class="wb-icon wbsico-donate"><use xlink:href="#wbsico-donate"></use></svg><span>打赏</span></a>
+						<a class="wb-btn wb-btn-ctrl wb-btn-outlined wb-btn-like" data-api="https://ww.aliwen.vip/wp-admin/admin-ajax.php" data-post_id="559"><svg class="wb-icon wbsico-like"><use xlink:href="#wbsico-like"></use></svg><span>赞(1)</span></a><div class="com-popover pst-c pst-fixed wb-dialog-df wb-ppo-donate" id="J_ppoDonate">
+			    <div class="bd" id="J_tabBoxDWQ">
+			    	<div class="tab-navs">
+			    	
+			    		<div class="tab-nav-item item-weixin current"><span>微信</span></div><div class="tab-nav-item item-alipay"><span>支付宝</span></div>
+					</div>
+					<div class="tab-conts">
+						<div class="tab-cont current"><div class="pic"><img src="/public/static/picture/536f868c09cfbc8.jpg" alt="微信二维码图片"></div><p>用<span class="hl">微信</span>扫描二维码打赏</p></div><div class="tab-cont"><div class="pic"><img src="/public/static/picture/e35cf7b66449df5.jpg" alt="支付宝二维码图片"></div><p>用<span class="hl">支付宝</span>扫描二维码打赏</p></div>
+					</div>
+			    </div>
+			    <a class="wb-ppo-close"><svg class="wb-icon wbsico-close"><use xlink:href="#wbsico-close"></use></svg></a>
+			    </div></div></div>      </div>
+      <div id="pay-single-box"></div>
+          <div class="entry-tags">
+          <a href="https://ww.aliwen.vip/tag/%e4%b8%8b%e8%bd%bd%e5%99%a8" rel="tag">
+        下载器      </a>
+          <a href="https://ww.aliwen.vip/tag/%e7%a7%92%e6%95%b0" rel="tag">
+        秒数      </a>
+          <a href="https://ww.aliwen.vip/tag/%e8%bd%af%e4%bb%b6" rel="tag">
+        软件      </a>
+      </div>
+<div class="article-copyright">Aliwen小栈是一个服务于小众的聚集地，汇集丰富的兴趣内容。让一切的不可能变成可能，接受不能改变的！<br/><a href="https://ww.aliwen.vip">Aliwen小栈</a> &raquo; <a href="https://ww.aliwen.vip/559">超级神器，超强聚合下载神器复活啦</a></div>
+
+<div class="article-footer">
+    <div class="author-box">
+    <div class="author-image">
+      <img alt='Aliwen' data-src='/public/static/picture/1.png' class='lazyload avatar avatar-140 photo ' height='140' width='140' />    </div>
+    <div class="author-info">
+      <h4 class="author-name">
+        <a target="_blank" href="javascript:;">Aliwen</a>
+        <span class="label label-default"><i class="fa fa-diamond"></i> 普通</span>      </h4>
+    </div>
+  </div>
+      <div class="xshare">
+      <span class="xshare-title">分享到：</span>
+                 <a href="javascript:;" title="收藏文章" etap="star" data-postid="559" class="ripro-star"><i class="fa fa-star-o"></i></a>
+            <a href="" etap="share" data-share="qq" class="share-qq"><i class="fa fa-qq"></i></a>
+      <a href="" etap="share" data-share="weibo" class="share-weibo"><i class="fa fa-weibo"></i></a>
+              <a href="javascript:;" class="btn-bigger-cover share-weixin" data-nonce="830b58795d" data-id="559" data-action="create-bigger-image" id="bigger-cover"><i class="fa fa-paper-plane"></i></a>
+        </div>
+   
+</div>    </div>
+  </div>
+</article>
+
+
+  <div class="entry-navigation">
+    <nav class="article-nav">
+        <span class="article-nav-prev">上一篇<br><a href="https://ww.aliwen.vip/556" rel="prev">全网首发 | 几乎所有人都没有见过的新晋神器，全面支持所有终端</a></span>
+        <span class="article-nav-next">下一篇<br><a href="https://ww.aliwen.vip/563" rel="next">速进！深夜必备，福利软件&#8230;&#8230;</a></span>
+    </nav>
+    
+  </div>
+
+
+
+<div class="bottom-area">
+    <div id="comments" class="comments-area">
+                    <h3 class="comments-title">
+                2 评论            </h3>
+
+            <ol class="comment-list">
+                
+  <li id="comment-90" class="comment even thread-even depth-1 parent">
+    <article id="div-comment-90" class="comment-wrapper u-clearfix" itemscope itemtype="https://schema.org/Comment">
+      <div class="comment-author-avatar vcard">
+        <img alt='' src='/public/static/picture/722480d7722545b798bd1cf8d1bfc967.gif' srcset='https://secure.gravatar.com/avatar/c307fc60ff5bc2fb05fbf2866900165b?s=192&#038;d=mm&#038;r=g 2x' class='avatar avatar-96 photo' height='96' width='96' />      </div>
+
+      <div class="comment-content">
+        <div class="comment-author-name vcard" itemprop="author">
+          <cite class="fn"><i class="fa fa-diamond"></i> 普通 <a href='https://www.leevast.com' rel='external nofollow' class='url'>leo2heaven</a></cite>        </div>
+
+        <div class="comment-metadata">
+          <time datetime="2020-02-26T17:36:31+00:00" itemprop="datePublished">
+            2020年2月26日 at 下午5:36          </time>
+
+          <span class="reply-link"><a rel='nofollow' class='comment-reply-link' href='https://ww.aliwen.vip/559?replytocom=90#respond' onclick='return addComment.moveForm( "div-comment-90", "90", "respond", "559" )' aria-label='回复给leo2heaven'>回复</a></span>        </div>
+
+        <div class="comment-body" itemprop="comment">
+          <p>这个可以有</p>
+        </div>
+
+              </div>
+    </article> <ol class="children">
+
+  <li id="comment-92" class="comment byuser comment-author-aliwen bypostauthor odd alt depth-2">
+    <article id="div-comment-92" class="comment-wrapper u-clearfix" itemscope itemtype="https://schema.org/Comment">
+      <div class="comment-author-avatar vcard">
+        <img alt='' data-src='/public/static/picture/1.png' class='lazyload avatar avatar-96 photo ' height='96' width='96' />      </div>
+
+      <div class="comment-content">
+        <div class="comment-author-name vcard" itemprop="author">
+          <cite class="fn"><i class="fa fa-diamond"></i> 普通 <a href='http://Aliwen小栈' rel='external nofollow' class='url'>文猪儿</a></cite>        </div>
+
+        <div class="comment-metadata">
+          <time datetime="2020-02-27T09:50:59+00:00" itemprop="datePublished">
+            2020年2月27日 at 上午9:50          </time>
+
+          <span class="reply-link"><a rel='nofollow' class='comment-reply-link' href='https://ww.aliwen.vip/559?replytocom=92#respond' onclick='return addComment.moveForm( "div-comment-92", "92", "respond", "559" )' aria-label='回复给文猪儿'>回复</a></span>        </div>
+
+        <div class="comment-body" itemprop="comment">
+          <p>嗯啦，喜欢就好^_^</p>
+        </div>
+
+              </div>
+    </article> </li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+            </ol>
+
+            
+        
+        
+        
+        	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">发表评论 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/559#respond" style="display:none;">取消回复</a></small></h3>			<form action="https://ww.aliwen.vip/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<p class="comment-form-comment"><textarea id="comment" name="comment" rows="8" aria-required="true"></textarea></p><div class="row comment-author-inputs"><div class="col-md-4 input"><p class="comment-form-author"><label for="author">昵称*</label><input id="author" name="author" type="text" value="" size="30" aria-required='true'></p></div>
+<div class="col-md-4 input"><p class="comment-form-email"><label for="email">E-mail*</label><input id="email" name="email" type="text" value="" size="30" aria-required='true'></p></div>
+<div class="col-md-4 input"><p class="comment-form-url"><label for="url">网站</label><input id="url" name="url" type="text" value="" size="30"></p></div></div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">下次发表评论时，请在此浏览器中保存我的姓名、电子邮件和网站</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="button" value="发表评论" /> <input type='hidden' name='comment_post_ID' value='559' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="07a62dea8e" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="55"/></p>			</form>
+			</div><!-- #respond -->
+	    </div>
+</div>				</main>
+			</div>
+		</div>
+					<div class="sidebar-column col-lg-3">
+				
+<aside class="widget-area">
+	<div id="search-2" class="widget widget_search"><form method="get" class="search-form inline" action="https://ww.aliwen.vip/">
+  <input type="search" class="search-field inline-field" placeholder="输入关键词，回车..." autocomplete="off" value="" name="s" required="required">
+  <button type="submit" class="search-submit"><i class="mdi mdi-magnify"></i></button>
+</form></div><div id="media_image-2" class="widget widget_media_image"><h5 class="widget-title">关注我们</h5><img width="747" height="1024" src="/public/static/picture/fde8a2f3eb87afa-747x1024.jpg" class="image wp-image-144  attachment-large size-large" alt="" style="max-width: 100%; height: auto;" srcset="https://ww.aliwen.vip/wp-content/uploads/2019/07/fde8a2f3eb87afa-747x1024.jpg 747w, https://ww.aliwen.vip/wp-content/uploads/2019/07/fde8a2f3eb87afa-219x300.jpg 219w, https://ww.aliwen.vip/wp-content/uploads/2019/07/fde8a2f3eb87afa-768x1053.jpg 768w, https://ww.aliwen.vip/wp-content/uploads/2019/07/fde8a2f3eb87afa.jpg 1080w" sizes="(max-width: 747px) 100vw, 747px" /></div><div id="linkcat-89" class="widget widget_links"><h5 class="widget-title">友情链接</h5>
+	<ul class='xoxo blogroll'>
+<li><a href="https://ww.aliwen.vip" rel="me" target="_blank">Aliwen小栈</a></li>
+<li><a href="https://www.zzjava.xyz/" target="_blank">Cherish blog</a></li>
+<li><a href="https://www.suzf.top/">IT界的搬砖工</a></li>
+<li><a href="https://www.jiangxindc.com/" target="_blank">Java源码并发编程网</a></li>
+<li><a href="https://www.yiz.vip/" title="Yiz网 &#8211; 专注于Vlog的短视频教程分享网">Yiz网</a></li>
+<li><a href="https://sinsle.com/" title="利爪是一个专注于推荐优秀软件、APP应用和互联网资源的网站。" target="_blank">利爪软件资源</a></li>
+<li><a href="http://film.aliwen.vip" target="_blank">小栈VIP影视</a></li>
+<li><a href="https://www.yangqq.com/" target="_blank">杨青青</a></li>
+<li><a href="https://www.leevast.com/" target="_blank">沧澜小栈</a></li>
+
+	</ul>
+</div>
+<div id="tag_cloud-2" class="widget widget_tag_cloud"><h5 class="widget-title">标签云</h5><div class="tagcloud"><a href="https://ww.aliwen.vip/tag/js" class="tag-cloud-link tag-link-106 tag-link-position-1" style="font-size: 8pt;" aria-label="JS (1个项目)">JS<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/office" class="tag-cloud-link tag-link-108 tag-link-position-2" style="font-size: 11.6pt;" aria-label="office (2个项目)">office<span class="tag-link-count"> (2)</span></a>
+<a href="https://ww.aliwen.vip/tag/php" class="tag-cloud-link tag-link-86 tag-link-position-3" style="font-size: 16pt;" aria-label="PHP (4个项目)">PHP<span class="tag-link-count"> (4)</span></a>
+<a href="https://ww.aliwen.vip/tag/ps" class="tag-cloud-link tag-link-111 tag-link-position-4" style="font-size: 14pt;" aria-label="PS (3个项目)">PS<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/psd" class="tag-cloud-link tag-link-124 tag-link-position-5" style="font-size: 8pt;" aria-label="PSD (1个项目)">PSD<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/thinkphp" class="tag-cloud-link tag-link-105 tag-link-position-6" style="font-size: 8pt;" aria-label="ThinkPHP (1个项目)">ThinkPHP<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/ui" class="tag-cloud-link tag-link-82 tag-link-position-7" style="font-size: 14pt;" aria-label="UI (3个项目)">UI<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/vip" class="tag-cloud-link tag-link-132 tag-link-position-8" style="font-size: 11.6pt;" aria-label="VIP (2个项目)">VIP<span class="tag-link-count"> (2)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e4%b8%8b%e8%bd%bd" class="tag-cloud-link tag-link-121 tag-link-position-9" style="font-size: 14pt;" aria-label="下载 (3个项目)">下载<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e4%b8%8b%e8%bd%bd%e5%99%a8" class="tag-cloud-link tag-link-136 tag-link-position-10" style="font-size: 8pt;" aria-label="下载器 (1个项目)">下载器<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e4%ba%91%e9%9f%b3%e4%b9%90" class="tag-cloud-link tag-link-129 tag-link-position-11" style="font-size: 8pt;" aria-label="云音乐 (1个项目)">云音乐<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd" class="tag-cloud-link tag-link-104 tag-link-position-12" style="font-size: 8pt;" aria-label="人工智能 (1个项目)">人工智能<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%85%8d%e8%b4%b9" class="tag-cloud-link tag-link-138 tag-link-position-13" style="font-size: 8pt;" aria-label="免费 (1个项目)">免费<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%8a%9e%e5%85%ac" class="tag-cloud-link tag-link-109 tag-link-position-14" style="font-size: 14pt;" aria-label="办公 (3个项目)">办公<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%8a%a0%e9%80%9f%e5%99%a8" class="tag-cloud-link tag-link-118 tag-link-position-15" style="font-size: 14pt;" aria-label="加速器 (3个项目)">加速器<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%8a%aa%e5%8a%9b" class="tag-cloud-link tag-link-80 tag-link-position-16" style="font-size: 8pt;" aria-label="努力 (1个项目)">努力<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%8e%bb%e9%a9%ac%e8%b5%9b%e5%85%8b" class="tag-cloud-link tag-link-125 tag-link-position-17" style="font-size: 8pt;" aria-label="去马赛克 (1个项目)">去马赛克<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%90%8e%e5%8f%b0%e7%a8%8b%e5%ba%8f" class="tag-cloud-link tag-link-88 tag-link-position-18" style="font-size: 14pt;" aria-label="后台程序 (3个项目)">后台程序<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%90%ac%e4%b9%a6" class="tag-cloud-link tag-link-133 tag-link-position-19" style="font-size: 14pt;" aria-label="听书 (3个项目)">听书<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%91%a8%e6%9d%b0%e4%bc%a6" class="tag-cloud-link tag-link-148 tag-link-position-20" style="font-size: 11.6pt;" aria-label="周杰伦 (2个项目)">周杰伦<span class="tag-link-count"> (2)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%96%9c%e9%a9%ac%e6%8b%89%e9%9b%85" class="tag-cloud-link tag-link-130 tag-link-position-21" style="font-size: 11.6pt;" aria-label="喜马拉雅 (2个项目)">喜马拉雅<span class="tag-link-count"> (2)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%b0%b1%e7%88%b1%e7%9c%8b" class="tag-cloud-link tag-link-135 tag-link-position-22" style="font-size: 8pt;" aria-label="就爱看 (1个项目)">就爱看<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e5%bd%95%e5%b1%8f" class="tag-cloud-link tag-link-123 tag-link-position-23" style="font-size: 8pt;" aria-label="录屏 (1个项目)">录屏<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%80%bb%e7%bb%93ppt" class="tag-cloud-link tag-link-99 tag-link-position-24" style="font-size: 8pt;" aria-label="总结PPT (1个项目)">总结PPT<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%83%85%e5%95%86" class="tag-cloud-link tag-link-101 tag-link-position-25" style="font-size: 8pt;" aria-label="情商 (1个项目)">情商<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%8a%80%e6%9c%af" class="tag-cloud-link tag-link-87 tag-link-position-26" style="font-size: 14pt;" aria-label="技术 (3个项目)">技术<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%8a%92%e6%83%85" class="tag-cloud-link tag-link-85 tag-link-position-27" style="font-size: 14pt;" aria-label="抒情 (3个项目)">抒情<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%8f%92%e4%bb%b6" class="tag-cloud-link tag-link-126 tag-link-position-28" style="font-size: 11.6pt;" aria-label="插件 (2个项目)">插件<span class="tag-link-count"> (2)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%96%87%e8%89%ba" class="tag-cloud-link tag-link-84 tag-link-position-29" style="font-size: 11.6pt;" aria-label="文艺 (2个项目)">文艺<span class="tag-link-count"> (2)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%9e%81%e7%ae%80ppt" class="tag-cloud-link tag-link-97 tag-link-position-30" style="font-size: 8pt;" aria-label="极简PPT (1个项目)">极简PPT<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%a0%bc%e5%bc%8f%e8%bd%ac%e6%8d%a2" class="tag-cloud-link tag-link-128 tag-link-position-31" style="font-size: 8pt;" aria-label="格式转换 (1个项目)">格式转换<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%b1%87%e6%8a%a5ppt" class="tag-cloud-link tag-link-100 tag-link-position-32" style="font-size: 8pt;" aria-label="汇报PPT (1个项目)">汇报PPT<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e6%b8%85%e6%96%b0ppt" class="tag-cloud-link tag-link-98 tag-link-position-33" style="font-size: 8pt;" aria-label="清新PPT (1个项目)">清新PPT<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e7%94%9f%e6%b4%bb" class="tag-cloud-link tag-link-2 tag-link-position-34" style="font-size: 19pt;" aria-label="生活 (6个项目)">生活<span class="tag-link-count"> (6)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e7%94%b5%e5%bd%b1" class="tag-cloud-link tag-link-131 tag-link-position-35" style="font-size: 14pt;" aria-label="电影 (3个项目)">电影<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e7%99%be%e5%ba%a6%e4%ba%91" class="tag-cloud-link tag-link-117 tag-link-position-36" style="font-size: 14pt;" aria-label="百度云 (3个项目)">百度云<span class="tag-link-count"> (3)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e7%a0%b4%e8%a7%a3" class="tag-cloud-link tag-link-122 tag-link-position-37" style="font-size: 22pt;" aria-label="破解 (9个项目)">破解<span class="tag-link-count"> (9)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e7%a7%92%e6%95%b0" class="tag-cloud-link tag-link-137 tag-link-position-38" style="font-size: 8pt;" aria-label="秒数 (1个项目)">秒数<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e8%85%94%e8%b0%83" class="tag-cloud-link tag-link-103 tag-link-position-39" style="font-size: 11.6pt;" aria-label="腔调 (2个项目)">腔调<span class="tag-link-count"> (2)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e8%ae%a1%e7%ae%97%e6%9c%ba" class="tag-cloud-link tag-link-134 tag-link-position-40" style="font-size: 8pt;" aria-label="计算机 (1个项目)">计算机<span class="tag-link-count"> (1)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e8%ae%be%e8%ae%a1" class="tag-cloud-link tag-link-81 tag-link-position-41" style="font-size: 19pt;" aria-label="设计 (6个项目)">设计<span class="tag-link-count"> (6)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e8%bd%af%e4%bb%b6" class="tag-cloud-link tag-link-110 tag-link-position-42" style="font-size: 21pt;" aria-label="软件 (8个项目)">软件<span class="tag-link-count"> (8)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e9%98%85%e8%af%bb" class="tag-cloud-link tag-link-83 tag-link-position-43" style="font-size: 16pt;" aria-label="阅读 (4个项目)">阅读<span class="tag-link-count"> (4)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e9%9a%8f%e7%ac%94" class="tag-cloud-link tag-link-102 tag-link-position-44" style="font-size: 16pt;" aria-label="随笔 (4个项目)">随笔<span class="tag-link-count"> (4)</span></a>
+<a href="https://ww.aliwen.vip/tag/%e9%9f%b3%e4%b9%90" class="tag-cloud-link tag-link-127 tag-link-position-45" style="font-size: 11.6pt;" aria-label="音乐 (2个项目)">音乐<span class="tag-link-count"> (2)</span></a></div>
+</div></aside>			</div>
+			</div>
+</div>
+
+
+</div><!-- end sitecoent --> 
+
+	
+	<div class="module parallax">
+		<img class="jarallax-img lazyload" data-srcset="https://ww.aliwen.vip/wp-content/themes/ripro66/assets/images/background/bg-1.jpg" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+		<div class="container">
+			<h4 class="entry-title">
+				提供最优质的资源集合			</h4>
+							<a target="_blank" class="button" href="#">立即查看</a>
+										<a target="_blank" class="button transparent" href="#">了解详情</a>
+					</div>
+	</div>
+	
+	<footer class="site-footer">
+		<div class="container">
+			
+			<div class="footer-widget">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 widget--about">
+            <div class="widget--content">
+                <div class="footer--logo mb-20">
+                    <img class="tap-logo" src="/public/static/picture/d72c2fe0ed4f457.png" data-dark="https://ww.aliwen.vip/wp-content/uploads/2019/07/d72c2fe0ed4f457.png" alt="Aliwen小栈">
+                </div>
+                <p class="mb-10">Aliwen小栈是一个服务于小众的聚集地，汇集丰富的兴趣内容。让一切的不可能变成可能，接受不能改变的！</p>
+            </div>
+        </div>
+        <!-- .col-md-2 end -->
+        <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-1 widget--links">
+            <div class="widget--title">
+                <h5>本站导航</h5>
+            </div>
+            <div class="widget--content">
+                <ul class="list-unstyled mb-0">
+                    <li><a target="_blank" href="http://img.aliwen.vip">壁纸墙</a></li><li><a target="_blank" href="http://music.aliwen.vip">音乐台</a></li>                </ul>
+            </div>
+        </div>
+        <!-- .col-md-2 end -->
+        <div class="col-xs-12 col-sm-3 col-md-2 widget--links">
+            <div class="widget--title">
+                <h5>友情链接</h5>
+            </div>
+            <div class="widget--content">
+                <ul class="list-unstyled mb-0">
+                                    </ul>
+            </div>
+        </div>
+        <!-- .col-md-2 end -->
+        <div class="col-xs-12 col-sm-12 col-md-4 widget--newsletter">
+            <div class="widget--title">
+                <h5>快速搜索</h5>
+            </div>
+            <div class="widget--content">
+                <form class="newsletter--form mb-30" action="https://ww.aliwen.vip/" method="get">
+                    <input type="text" class="form-control" name="s" placeholder="关键词">
+                    <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                </form>
+                <h6></h6>
+            </div>
+        </div>
+
+    </div>
+</div>						  <div class="site-info">
+			    © Aliwen小栈 ww.aliwen.vip | 蜀ICP备18031154号-2			    			    <a href="http://www.beian.miit.gov.cn" target="_blank" class="text"> 蜀ICP备18031154号-2<br></a>
+			    			  </div>
+					</div>
+	</footer>
+	
+<div class="rollbar">
+	    <div class="rollbar-item tap-qq" etap="tap-qq"><a target="_blank" title="QQ咨询" href="http://wpa.qq.com/msgrd?v=3&uin=393593897&site=qq&menu=yes"><i class="fa fa-qq"></i></a></div>
+    
+	<div class="rollbar-item" etap="to_full" title="全屏页面"><i class="fa fa-arrows-alt"></i></div>
+
+	    <div class="rollbar-item tap-blog-style" etap="tap-blog-style" data-id="0" title="博客模式"><i class="fa fa-list"></i></div>
+    
+	    <div class="rollbar-item tap-dark" etap="tap-dark" title="夜间模式"><i class="mdi mdi-brightness-4"></i></div>
+    	<div class="rollbar-item" etap="to_top" title="返回顶部"><i class="fa fa-angle-up"></i></div>
+</div>
+
+<div class="dimmer"></div>
+
+    <div id="popup-signup" class="popup-signup fade" style="display: none;">
+    <div class="register-login-modal" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img class="popup-logo" src="/public/static/picture/d72c2fe0ed4f457.png" data-dark="https://ww.aliwen.vip/wp-content/uploads/2019/07/d72c2fe0ed4f457.png" alt="Aliwen小栈">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#login" data-toggle="login">登录</a>
+                        </li>
+                        <li><a href="#signup" data-toggle="signup">注册</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="login">
+                            <div class="signup-form-container text-center">
+                                <form class="mb-0">
+                                    <div class="open-oauth  text-center"><a href="https://ww.aliwen.vip/oauth/qq?rurl=https://ww.aliwen.vip/559" class="btn btn-qq"><i class="fa fa-qq"></i></a><a href="https://ww.aliwen.vip/oauth/weixin?rurl=https://ww.aliwen.vip/559" class="btn btn-weixin"><i class="fa fa-weixin"></i></a><a href="https://ww.aliwen.vip/oauth/mpweixin" class="go-mpweixin btn btn-mpweixin"><i class="fa fa-weixin"></i></a><a href="https://ww.aliwen.vip/oauth/weibo?rurl=https://ww.aliwen.vip/559" class="btn btn-weibo"><i class="fa fa-weibo"></i></a></div><div class="or-text"><span>or</span></div>                                                                            <div class="form-group">
+                                            <input type="text" class="form-control" name="username" placeholder="*用户名或邮箱">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" name="password" placeholder="*密码">
+                                        </div>
+                                        <button type="button" class="go-login btn btn--primary btn--block"><i class="fa fa-bullseye"></i> 安全登录</button> 
+                                        <!-- <a href="#" class="forget-password">忘记密码?</a> -->
+                                                                    </form>
+                                <!-- form  end -->
+                            </div>
+                            <!-- .signup-form end -->
+                        </div>
+                        <div class="tab-pane fade in" id="signup">
+                            <form class="mb-0">
+                                <div class="open-oauth  text-center"><a href="https://ww.aliwen.vip/oauth/qq?rurl=https://ww.aliwen.vip/559" class="btn btn-qq"><i class="fa fa-qq"></i></a><a href="https://ww.aliwen.vip/oauth/weixin?rurl=https://ww.aliwen.vip/559" class="btn btn-weixin"><i class="fa fa-weixin"></i></a><a href="https://ww.aliwen.vip/oauth/mpweixin" class="go-mpweixin btn btn-mpweixin"><i class="fa fa-weixin"></i></a><a href="https://ww.aliwen.vip/oauth/weibo?rurl=https://ww.aliwen.vip/559" class="btn btn-weibo"><i class="fa fa-weibo"></i></a></div><div class="or-text"><span>or</span></div>                                                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="user_name" placeholder="输入英文用户名">
+                                    </div>
+                                    <!-- .form-group end -->
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="user_email" placeholder="绑定邮箱">
+                                    </div>
+                                    <!-- .form-group end -->
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" name="user_pass" placeholder="密码最小长度为6">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" name="user_pass2" placeholder="再次输入密码">
+                                    </div>
+                                                                        <div class="form-group">
+                                        <div class="input-group">
+                                          <input type="text" class="form-control" name="captcha" placeholder="邮箱验证码">
+                                          <span class="input-group-btn">
+                                            <button class="go-captcha_email btn btn--secondary" type="button">发送验证码</button>
+                                          </span>
+                                        </div>
+                                    </div>
+                                                                        <button type="button" class="go-register btn btn--primary btn--block"><i class="fa fa-bullseye"></i> 立即注册</button>
+                                                                
+                            </form>
+                            <!-- form  end -->
+                        </div>
+                    </div>
+                    <a target="_blank" href="https://ww.aliwen.vip/wp-login.php?action=lostpassword" class="rest-password">忘记密码？</a>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+
+
+<div class="off-canvas">
+  <div class="canvas-close"><i class="mdi mdi-close"></i></div>
+  <div class="logo-wrapper">
+      <a href="https://ww.aliwen.vip/">
+      <img class="logo regular" src="/public/static/picture/d72c2fe0ed4f457.png" alt="Aliwen小栈">
+    </a>
+    </div>
+  <div class="mobile-menu hidden-lg hidden-xl"></div>
+  <aside class="widget-area">
+    <div id="cao_widget_ads-5" class="widget widget-adss"><div class="adsbg"><a class="asr" href="https://ww.aliwen.vip" target="_blank" style="background-color:#24c5e5"><h4>免费领50元优惠券</h4><h5>新站启用</h5><span class="btn btn-outline">立即查看</span></a></div></div>  </aside>
+</div>
+
+
+<div class="vs-context-menu">
+<ul>
+</ul>
+</div>
+<script type="text/javascript">
+   jQuery(document).ready(function(){
+      jQuery('html').vscontext({menuBlock: 'vs-context-menu'});
+   });
+</script>
+<script type='text/javascript' src='/public/static/js/plugins.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var caozhuti = {"site_name":"Aliwen\u5c0f\u6808","home_url":"https:\/\/ww.aliwen.vip","ajaxurl":"https:\/\/ww.aliwen.vip\/wp-admin\/admin-ajax.php","is_singular":"1","tencent_captcha":{"is":"1","appid":""},"infinite_load":"\u52a0\u8f7d\u66f4\u591a","infinite_loading":"<i class=\"fa fa-spinner fa-spin\"><\/i> \u52a0\u8f7d\u4e2d...","site_notice":{"is":"0","color":"rgb(33, 150, 243)","html":"<div class=\"notify-content\"><h3>RiPro\u6700\u65b0\u7248\u672c\u66f4\u65b0\u65e5\u5fd7<\/h3><div>\u8fd9\u662f\u4e00\u6761\u7f51\u7ad9\u516c\u544a\uff0c\u53ef\u5728\u540e\u53f0\u5f00\u542f\u6216\u5173\u95ed\uff0c\u53ef\u81ea\u5b9a\u4e49\u80cc\u666f\u989c\u8272\uff0c\u6807\u9898\uff0c\u5185\u5bb9\uff0c\u7528\u6237\u9996\u6b21\u6253\u5f00\u5173\u95ed\u540e\u4e0d\u518d\u91cd\u590d\u5f39\u51fa\uff0c\u6b64\u5904\u53ef\u4f7f\u7528html\u6807\u7b7e...<\/div><\/div>"},"pay_type_html":{"html":"<div class=\"pay-button-box\"><div class=\"pay-item\" id=\"alipay\" data-type=\"1\"><i class=\"alipay\"><\/i><span>\u652f\u4ed8\u5b9d<\/span><\/div><div class=\"pay-item\" id=\"weixinpay\" data-type=\"2\"><i class=\"weixinpay\"><\/i><span>\u5fae\u4fe1\u652f\u4ed8<\/span><\/div><\/div><p style=\"font-size: 13px; padding: 0; margin: 0;\">\u5f53\u524d\u4e3a\u6e38\u5ba2\u8d2d\u4e70\u6a21\u5f0f<\/p>","alipay":1,"weixinpay":2}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/public/static/js/app.js'></script>
+<script type='text/javascript' src='/public/static/js/tcaptcha.js'></script>
+<script type='text/javascript' src='/public/static/js/jquery.fancybox.min.js'></script>
+<script type='text/javascript' src='/public/static/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='/public/static/js/wbp_front.js'></script>
+<script async="async" type='text/javascript' src='/public/static/js/form.js'></script>
+<script>
+                        (function(){
+                            var bp = document.createElement('script');
+                            var curProtocol = window.location.protocol.split(':')[0];
+                            if (curProtocol === 'https') {
+                                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                            }
+                            else {
+                                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                            }
+                            var s = document.getElementsByTagName("script")[0];
+                            s.parentNode.insertBefore(bp, s);
+                        })();
+                        </script>
+</body>
+</html>
