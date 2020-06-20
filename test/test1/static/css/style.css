@@ -1,7 +1,9 @@
 button{
     outline: none !important;
 }
-
+body{
+    background-color: #F5F5F5; !important;
+}
 /* 导航栏 */
 .dropdown-toggle:hover>.dropdown-menu {
     display: block;
@@ -69,7 +71,6 @@ a.brand-style::after{
     }
 }
 .nav-style .btnGroup button,.nav-style .btnGroup button:active{
-    background-color: #f6f6f6;
     border: 0;
     color: #34495e;
     outline: none;
@@ -233,3 +234,145 @@ a.brand-style::after{
     color: #fff;
     letter-spacing: 0.3px;
 }
+
+/* 推荐集 */
+.recommend {
+    margin-top: 20px;
+    background-color: #fff;
+}
+.recommend .container,.swiper-container2{
+    height: 280px;
+    overflow: hidden;
+} 
+.swiper-thumb{
+    width: 270px !important;
+    height: 180px !important; 
+    margin: auto;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.swiper-thumb .big-thumb{
+    width: 180px;
+    height: 180px;
+    float: left; 
+    position: relative;
+    overflow: hidden;
+}
+.swiper-thumb .small-thumb{
+    float: right;
+    width: 80px !important;
+    height: 180px !important; 
+}
+.swiper-thumb .small-thumb .small-top{
+    height: 90px; 
+    position: relative;
+    overflow: hidden;
+
+}
+.swiper-thumb .small-thumb .small-bottom{
+    height: 90px; 
+    position: relative;
+    overflow: hidden;
+}
+.swiper-thumb .small-thumb .small-bottom h4{
+    margin: 0;
+}
+.swiper-container2 img{
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.swiper-container2 h3,.swiper-container2 h4{
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: 600;
+}
+.swiper-container2  h3::after{
+    content: "";
+    background: #ffffff;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer部分 */
+.site-footer .widget--about{
+    max-width: 270px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #aaaaaa;
+}
+.tap-logo{
+    margin-top: -50px;
+    width: 100%;
+}
+.footer-widget .widget--title h5 {
+    font-family: 'Poppins',sans-serif;
+    color: #34495e;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 27px;
+}
+.widget--links ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 9px;
+    display: block;
+}
+.widget--newsletter .form-control {
+    background-color: #f8f8f8;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+    color: #aaaaaa;
+    height: 42px;
