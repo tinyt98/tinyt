@@ -1,0 +1,235 @@
+button{
+    outline: none !important;
+}
+
+/* 导航栏 */
+.dropdown-toggle:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+a.brand-style{
+    display: inline-block;
+    width: 100px;
+    font-size: 28px;
+    color: #40d2b1 !important;
+    font-weight: bold;
+    background: url(../images/logo-nbg.png) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+a.brand-style::after{
+    display: none;
+}
+.navbar-toggle{
+    background-color: #f6f6f6 !important;
+}
+.navbar-toggle .icon-bar{
+    color: black;
+    background-color: rgb(48, 186, 203);
+}
+@media screen and (min-width: 768px) {
+    a.brand-style::after{
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        right: -5px;
+        content: '';
+        height: 50px;
+        line-height: 80px;
+        border-right: 1px solid rgb(230, 230, 230);
+    }
+    .nav-style{
+        height: 80px;
+        line-height: 80px;
+        margin-bottom: 0 !important;
+    }
+    .nav-style a{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        height: 80px;
+        line-height: 80px !important;
+    }
+    .nav-style a img{
+        width: 100px;
+    }
+    .nav-style .navbar-style{
+        height: 80px;
+        line-height: 80px;
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #34495e;
+    }
+    .nav-style .navbar-style li{
+        height: 80px;
+        line-height: 80px;
+    }
+}
+.nav-style .btnGroup button,.nav-style .btnGroup button:active{
+    background-color: #f6f6f6;
+    border: 0;
+    color: #34495e;
+    outline: none;
+}
+.nav-style .btnGroup .login{
+    width: 80px;
+    margin-right: 20px;
+}
+.nav-style .btnGroup .changeTheme{
+    border-radius: 500px;
+}
+/* 广告曲 */
+.main{
+    padding: 0;
+}
+.main .ad-area{
+    width: 100%;
+    background-color: #40d2b1;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 登录框 */
+.login-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(230, 230, 230, .9);
+}
+.login-body{
+    background-color: #fff;
+    width: 330px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+
+}
+.login-body .login-logo{
+    width: 100%;
+    text-align: center;
+}
+.login-body .login-close{
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.login-body img{
+    width: 120px;
+    display: inline-block;
+}
+.login-tabs{
+    text-align: center;
+    border: none;
+}
+.login-tabs ul{
+    width: 80%;
+    display: inline-block;
+    padding: 0 50px;
+    border: none;
+    
+}
+.login-tabs ul li{
+    padding-left: 10px;
+    border: none;
+}
+.login-tabs ul li a{
+    color: rgb(179, 217, 255);
+    font-size: 15px;
+    font-weight: 500;
+    border: none !important;
+}
+.login-tabs ul li a:hover,.login-tabs ul li.active a{
+    color: #007fff !important;
+    font-weight: bold;
+    border: none ;
+    background-color: white !important;
+}
+.login-content {
+    position: relative;
+    min-height: 330px;
+}
+.login-content>div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#login,#signin{
+    width: 100%;
+    text-align: center;
+    display: none;
+
+}
+#login.active,#signin.active{
+    display: block;
+}
+#login .form-style,#signin .form-style{
+    margin-top: 20px;
+    width: 80%;
+    display: inline-block;
+}
+.login-content .go-login{
+    background: #34495e;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+/* 轮播图 */
+.swiper-style>div {
+    padding: 0;
+}
+.swiper-style .swiper-container{
+    width: 100%;
+    height: 400px;
+    background-color: #ccc;
+}
+.swiper-style .swiper1{
+    background:url(../images/swiper4.jpg) center no-repeat;
+    background-size: cover;
+}
+.swiper-style .swiper2{
+    background:url(../images/swiper5.jpg) center no-repeat;
+    background-size: cover;
+}
+.swiper-style .swiper3{
+    background:url(../images/swiper3.jpg) center no-repeat;
+    background-size: cover;
+}
+.swiper-style .swiper-pagination .swiper-pagination-bullet-active{
+    background-color: #4CAF50;
+    opacity: 1;
+}
+.swiper-style .slider-title{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+.swiper-style .slider-desc{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
